@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Курс валют</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Логотип -->
+<div class="logo">
+    <img src="images/logo.png" alt="Лого" width="100" height="100">
+</div>
+
+<h1>Текущий курс валют</h1>
+<div id="exchange">
+    <label for="currency">Выберите валюту:</label>
+    <select id="currency">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="GBP">GBP</option>
+    </select>
+    <button id="getRateButton">Получить курс</button>
+</div>
+
+<p id="result"></p>
+
+<script src="script.js"></script>
+</body>
+</html>

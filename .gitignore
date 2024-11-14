@@ -1,0 +1,7 @@
+images/*.png
+images/*.jpg
+*.tmp
+*.cache
+*.log
+*.bak
+*.php
